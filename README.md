@@ -19,7 +19,9 @@ So, the installation seems a little difficult.
 
 ## Usage
 1.Switch the file you want to compile.
+
 2.```Ctrl+Shift+P```(*Default*) to call the ```command palette```
+
 3.Input "Easy Build Cpp: Build" or just "ebcb"(sublime will find the command) and execute it.
 
 >Notice: It will add all the .cpp files together with the file in focus to the compile list. So this is a really simple plugin.
