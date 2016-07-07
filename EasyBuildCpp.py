@@ -1,6 +1,7 @@
 import sublime, sublime_plugin
 import os
 import platform
+import subprocess
 
 plat = platform.system()
 
@@ -27,7 +28,7 @@ def compile_all_sources(t_list, out_fullname):
     to_exec += file + ' '
   to_exec += '-o ' + out_fullname
   print('to execute in system:\n' + to_exec)
-  os.system(to_exec)
+  print(subprocess.getstatusoutput(to_exec)[1])
 
 class CompileThisCommand(sublime_plugin.TextCommand):
   def run(self, edit):
