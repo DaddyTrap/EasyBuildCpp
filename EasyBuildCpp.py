@@ -25,8 +25,8 @@ def read_all_sources(t_dir):
 def compile_all_sources(t_list, out_fullname):
   to_exec = 'g++ -g -std=c++11 '
   for file in t_list:
-    to_exec += file + ' '
-  to_exec += '-o ' + out_fullname
+    to_exec += '"' + file + '" '
+  to_exec += '-o ' + '"' + out_fullname + '"'
   print('to execute in system:\n' + to_exec)
   print(subprocess.getstatusoutput(to_exec)[1])
 

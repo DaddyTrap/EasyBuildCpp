@@ -34,6 +34,6 @@ If you don't have git, the installation seems a little difficult.
 
 3.Input "Easy Build Cpp: Build" or just "ebcb"(sublime will find the command) and execute it.
 
-###Or use the short key `ctrl+k, ctrl+shift+b`.
+### Or use the short key `ctrl+k, ctrl+shift+b`.
 
 >Notice: The output name depends on the file being focused. It will add all the .cpp files together with the file in focus to the compile list. So this is a really simple plugin.
