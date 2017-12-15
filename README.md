@@ -1,3 +1,9 @@
+# This repo is *DEPRECATED*
+
+This is a toy repo I created when learning how to develop sublime text's plugins. Now I am not using sublime text, so I possibly won't maintain this repo anymore.
+
+--
+
 # EasyBuildCpp
 Easily build several cpp files. Only for small program but not suitable for a big project.
 
